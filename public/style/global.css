@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --black:#0D114F;
+    --white: #FAFAFA;
+    --red: #E83F5B;
+    --light-blue: #E0ECFF;
+    --blue: #3485FF;
+    --background: #F6FAFF;
+    --overlay: #040911;
+    --icons-details: #A5B0C1;
+
+    --grey-dark: #4D5E77;
+    --grey-blue: #A1B2CD;
+    --grey-light:#E5EAF1;
+    --grey-medium: #EAECF2;
+
+    font-size: 62.5%; /* 10px Facilita contas para usar o rem*/
+    /* rem é mais responsivo, logo é só dividir po 1px por 10 para conseguir 1rem */
+}
+/* 1rem = 16px (user agent) = 100% (user agent)*/
+/* px continua no mesmo tamanho independente do tamanho da tela */
+
+body {
+    display: flex;
+    height: 100vh; /* view height = view-port */
+    /* width: 100vw; vw = view width */
+    background-color: var(--background);
+}
+
+/* font-size no body nao engloba body, button, input, textarea */
+body, button, input, textarea {
+/* intervalo de tamanho,
+o minimo que a letra pode chegar é 14px, o padrao sera 1.6rem, se for muito grande a letra chegara a 2vw */
+    font-size: clamp(14px, 1.6rem, 2vw);
+    font-family:'Open Sans', sans-serif;
+    /* font-family:'Poppins', sans-serif ; */
+}
+
+.content {
+    width: 100%;
+    /* vai estar alinhando no meio da tela independente do tamanho da tela */
+    margin: 0 auto;
+}
+
+.sr-only { /* para acessibilidade */
+    /* display: none; ele deixa de existir o elemento */
+    position: absolute; /* absoluto e por cima de todo mundo */
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+input, button, .button{
+    border-radius: 0.8rem;
+    height: 5rem;
+    /* retira a marcaçao ao clicar no item */
+    outline: none; 
+}
+
+button, .button {
+    font-family:'Poppins', sans-serif ;
+    font-weight: 500;
+/* espaçamento entre as linhas do texto, normalmente para botoes nao desalinharem outros itens */
+    line-height: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--blue);
+    color: var(--white);
+
+    transition: filter .2s;
+
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    filter: brightness(1.2);
+}
+
+/* button > img
+.button > img */
+button img, .button img {
+    margin-right: 1rem;
+    width: 2rem;
+}
+
+button.outlined, .button.outlined {
+    background-color: var(--white);
+    color: var(--blue);
+    border: 0.2rem solid var(--blue);
+}
+
+.content header {
+    width: 80%;
+    margin: 3.5rem
+}
+
+.content header img {
+    width: 16.7rem;
+}

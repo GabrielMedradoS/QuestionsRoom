@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar sala - Rocket.Q</title>
+    <!-- CSS Uma global e outra especifica -->
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/home.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="home" class="content">
+        <header>
+            <a href="/"> <!-- / para ir direto para a homepage -->
+                <img src="/assets/Logo.svg" alt="Logo">
+            </a>    
+        </header>
+
+        <div id="bg">
+            <!-- Ilustraçao -->
+            <div class="ball top"></div>
+            <div class="ball bottom"></div>
+        </div>
+
+        <main>
+            <div class="container">
+                <!-- vai renderizar a parte correta de acordo com a url --> <!-- include no ejs é um <%- %> Para renderizar ou imprimr valor usa <%= %> -->
+                <%- include(`parts/${page}`) %>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

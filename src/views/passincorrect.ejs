@@ -1,0 +1,12 @@
+<!-- Criaçao da sala apenas para informar que a senha esta incorreta -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Senha incorreta</title>
+        <script>
+            // Parecido com o alert, mas abre uma caixa de dialogo
+            confirm("Senha incorreta")
+            window.location.replace("/room/<%= roomId %>") //fazendo o redirecionamento
+        </script>
+    </head>
+</html>
