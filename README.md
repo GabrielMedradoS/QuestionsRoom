@@ -5,7 +5,7 @@
 O projeto é um site onde o usuario pode criar salas como dono ou entrar em uma sala já existente para fazer perguntas  
 O dono pode adicionar perguntas, marca-las como lidas ou remove-las
 
-Ideal para responder perguntas em streams
+A ideia é responder as perguntas em streams
 
 ### 🛠 Tecnologias
 <div>
