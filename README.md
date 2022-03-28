@@ -6,7 +6,7 @@
 <p align="center">
     <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=blue&labelColor=white">
     <a href="">
-        <img src="https://img.shields.io/badge/finder-NLW 6.0-blue?&labelColor=white"></img>
+        <img src="https://img.shields.io/badge/Rocket.q-NLW 6.0-blue?&labelColor=white"></img>
     </a>
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/QuestionsRoom?color=blue&labelColor=white">
     <a href="https://github.com/GabrielMedradoS/QuestionsRoom/blob/master/License">
