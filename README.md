@@ -1,15 +1,19 @@
 ## QuestionsRoom
-### Layout 🚧
-
-#### Desktop Screenshot
-  <img alt="imageBeautysalon" src=".github/rocket.q.png" width="100%">
-  
+<h1 align="center">
+    <img src="./public/assets/Logo.svg" width="300" heigh="80" alt="QuestionsRoom">
+</h1>
+    
  <p align="center">
     <a href="#projeto-">Projeto</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#tecnologias-">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#layout-">Layout</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#licença-%EF%B8%8F">Licença</a>
 </p>
+
+### Layout 🚧
+
+#### Desktop Screenshot
+  <img alt="imageBeautysalon" src=".github/rocket.q.png" width="100%">
 
 ### Projeto 💻
 O projeto é um site onde o usuario pode criar salas como dono ou entrar em uma sala já existente para fazer perguntas  
