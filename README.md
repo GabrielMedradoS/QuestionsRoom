@@ -62,7 +62,7 @@ $ npm start
 </div>
 
 ## Licença ⚖️
-This project is under the MIT license. See the archive [LICENSE]() for more details.
+This project is under the MIT license. See the archive [LICENSE](https://github.com/GabrielMedradoS/QuestionsRoom/blob/master/License) for more details.
 
 ## Autor ✍🏾
 
